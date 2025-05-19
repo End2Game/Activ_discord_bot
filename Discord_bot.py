@@ -11,7 +11,7 @@ import os
 # Завантаження токена з .env
 dotenv.load_dotenv()
 token = os.getenv("DISCORD_TOKEN")
-token = ("")  # Замінити на безпечний
+token = ("Свій токен бота сюда напиши замість тексту")  # Замінити на безпечний
 
 # Конфігурація винагород
 MESSAGES_PER_REWARD = 8       # Кожні 8 повідомлення

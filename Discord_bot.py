@@ -11,7 +11,7 @@ import os
 # Завантаження токена з .env
 dotenv.load_dotenv()
 token = os.getenv("DISCORD_TOKEN")
-token = ("MTM3MjIxMzc5MjMyMjIyNDE2OQ.GVzx5l.QiDuvIloNs4RDk_RBoaJg99z1iBUHbRjTAyH88")  # Замінити на безпечний
+token = ("")  # Замінити на безпечний
 
 # Конфігурація винагород
 MESSAGES_PER_REWARD = 8       # Кожні 8 повідомлення
